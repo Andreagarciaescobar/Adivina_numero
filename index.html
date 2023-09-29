@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivina el número</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adivina el número (1-20)</h1>
+      <p>Intentos restantes: <span id="attempts">10</span></p>
+      <input type="number" id="guess" placeholder="Introduce un número" />
+      <button id="check">Comprobar</button>
+      <p id="message">¡Buena suerte!</p>
+      <div id="emoji"></div>
+      <div id="previous-attempts">
+        <h2>Intentos Anteriores:</h2>
+        <ul id="attempts-list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
